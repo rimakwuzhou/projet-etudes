@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 40px 0px;
+    background-image: url(/Users/thoravaltristan/Desktop/projet_3WA/views/images/main-background.jpg);
+    backdrop-filter: blur(5px) brightness(70%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span {
+    color:red;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+div label {
+    color: #27428c;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+section, .date{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+select, input{
+    height: 35px;
+    padding-left: 2px;
+    font-size: 18px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    flex: 1;
+}
+
+span label {
+    color: #27428c;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.identity section:last-of-type section{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background-color: #00acee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 40px 0px;
+  background-image: url(/Users/thoravaltristan/Desktop/projet_3WA/views/images/main-background.jpg);
+  backdrop-filter: blur(5px) brightness(70%);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+h2 {
+  font-style: italic;
+  text-align: center;
+}
+.card {
+  width: 33%;
+  display: inline-block;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
